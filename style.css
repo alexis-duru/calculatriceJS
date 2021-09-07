@@ -1,17 +1,36 @@
 
 body {
-  background-color: lightyellow;
+  background-color: #2984;
   height: 100vh;
-
+  animation: colorchange 1s;
+  animation-iteration-count: 300;
+  -webkit-animation: colorchange 20s;
+  -webkit-animation-iteration-count: 300;
 }
+
+@keyframes colorchange 
+{
+  0% {background: rgba(76, 101, 97, 0.267);}
+  25% {background: rgba(76, 101, 97, 0.267);}
+  50% {background: rgba(45, 84, 133, 0.267);}
+  75% {background: rgba(115, 76, 143, 0.267);}
+  100% {background: rgba(87, 32, 67, 0.267);}
+} 
+@-webkit-keyframes colorchange 
+{
+  0% {background: rgba(76, 101, 97, 0.267);}
+  25% {background: rgba(76, 101, 97, 0.267);}
+  50% {background: rgba(45, 84, 133, 0.267);}
+  75% {background: rgba(115, 76, 143, 0.267);}
+  100% {background: rgba(87, 32, 67, 0.267);}
+} 
 
 #output {
   margin: 0 auto;
-  font-family: Verdana;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 3px;
   background-color: white;
   border-radius: 50px;
-  border: 1px solid black;
   margin-bottom: 20px;
   padding: 50px;
   display: flex;
@@ -20,18 +39,20 @@ body {
   width: 200px;
 }
 
-button {
-  font-family: 'Verdana';
+input {
+  font-family: 'Montserrat', sans-serif;
   width: 150px;
   height: 100px;
   border-radius: 25px;
+  margin: 5px;
 }
 
 #globalcontainer {
   border-radius: 25px;
   margin: 0 auto;
-  height: 500px;
+  height: auto;
   width: 600px;
+  
   /* background-color: gray; */
 }
 
@@ -42,7 +63,12 @@ button {
   text-align: center;
   margin: 0 auto;
   border: 3px solid black;
+  border-radius: 50px;
   padding: 30px;
+}
+
+input {
+  font-size: 30px;
 }
 
 

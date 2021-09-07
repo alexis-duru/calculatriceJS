@@ -5,31 +5,34 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
   <title>Calculatrice</title>
 </head>
 <body>
-  <div id="output">Quick Math !</div>
+  <div id="output">CALCULATRICE</div>
     <div id="globalcontainer">
       <div id="container">
-          <div><button value=”AC” onclick="Reset(this)"/>AC</div>
-          <div><button value=”CE” onclick="rem1(this)"/>CE</div>
-          <div><button value=”%” onclick="showValue(this)"/>%</div>
-          <div><button  value=”/” onclick="showValue(this)"/>/</div>
-          <div><button value=”7” onclick="showValue(this)"/>7</div>
-          <div><button  value=”8” onclick="showValue(this)"/>8</div>
-          <div><button  value=”9” onclick="showValue(this)"/>9</div>
-          <div><button  value=”*” onclick="showValue(this)"/>*</div>
-          <div><button  value=”4” onclick="showValue(this)"/>4</div>
-          <div><button  value=”5” onclick="showValue(this)"/>5</div>
-          <div><button  value=”6” onclick="showValue(this)"/>6</div>
-          <div><button  value=”-” onclick="showValue(this)"/>-</div>
-          <div><button  value=”1” onclick="showValue(this)"/>1</div>
-          <div><button  value=”2” onclick="showValue(this)"/>2</div>
-          <div><button  value=”3” onclick="showValue(this)"/>3</div>
-          <div><button  value=”+” onclick="showValue(this)"/>+</div>
-          <div><button  value=”0” onclick="showValue(this)"/>0</div>
-          <div><button value=”.” onclick="showValue(this)"/>.</div>
-          <div><button  value='=' onclick="quickMath(this)"/>=</div>
+          <div><input type="button" value='AC' onclick="Reset(this)"/></div>
+          <div><input type="button" value='CE' onclick="remove(this)"/></div>
+          <div><input type="button" value='%' onclick="showValue(this)"/></div>
+          <div><input type="button"  value='/' onclick="showValue(this)"/></div>
+          <div><input type="button" value='7' onclick="showValue(this)"/></div>
+          <div><input type="button"  value='8' onclick="showValue(this)"/></div>
+          <div><input type="button"  value='9' onclick="showValue(this)"/></div>
+          <div><input type="button"  value='*' onclick="showValue(this)"/></div>
+          <div><input type="button"  value='4' onclick="showValue(this)"/></div>
+          <div><input type="button"  value='5' onclick="showValue(this)"/></div>
+          <div><input type="button"  value='6' onclick="showValue(this)"/></div>
+          <div><input type="button"  value='-' onclick="showValue(this)"/></div>
+          <div><input type="button"  value='1' onclick="showValue(this)"/></div>
+          <div><input type="button"  value='2' onclick="showValue(this)"/></div>
+          <div><input type="button"  value='3' onclick="showValue(this)"/></div>
+          <div><input type="button"  value='+' onclick="showValue(this)"/></div>
+          <div><input type="button"  value='0' onclick="showValue(this)"/></div>
+          <div><input type="button" value='.' onclick="showValue(this)"/></div>
+          <div><input type="button"  value='=' onclick="quickMath(this)"/></div>
         </div>
     </div>
   <script src="app.js"></script>
