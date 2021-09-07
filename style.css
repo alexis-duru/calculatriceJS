@@ -1,0 +1,52 @@
+
+body {
+  background-color: lightyellow;
+  height: 100vh;
+
+}
+
+#output {
+  margin: 0 auto;
+  font-family: Verdana;
+  letter-spacing: 3px;
+  background-color: white;
+  border-radius: 50px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+button {
+  font-family: 'Verdana';
+  width: 150px;
+  height: 100px;
+  border-radius: 25px;
+}
+
+#globalcontainer {
+  border-radius: 25px;
+  margin: 0 auto;
+  height: 500px;
+  width: 600px;
+  /* background-color: gray; */
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  border: 3px solid black;
+  padding: 30px;
+}
+
+
+
+
+
+

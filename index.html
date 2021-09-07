@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=3">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
-    <title></title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>Calculatrice</title>
 </head>
-
 <body>
-    <header>
-        <nav>
-            <p>lkqshjdqkjhdjqhdjqh</p>
-        </nav>
-    </header>
-
-    <section>
-
-    </section>
-
-    <section>
-        
-    </section>
-
-    <footer>
-
-    </footer>
-
-    <script src="assets/lib/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/script.js"></script>
+  <div id="output">Quick Math !</div>
+    <div id="globalcontainer">
+      <div id="container">
+          <div><button value=”AC” onclick="Reset(this)"/>AC</div>
+          <div><button value=”CE” onclick="rem1(this)"/>CE</div>
+          <div><button value=”%” onclick="showValue(this)"/>%</div>
+          <div><button  value=”/” onclick="showValue(this)"/>/</div>
+          <div><button value=”7” onclick="showValue(this)"/>7</div>
+          <div><button  value=”8” onclick="showValue(this)"/>8</div>
+          <div><button  value=”9” onclick="showValue(this)"/>9</div>
+          <div><button  value=”*” onclick="showValue(this)"/>*</div>
+          <div><button  value=”4” onclick="showValue(this)"/>4</div>
+          <div><button  value=”5” onclick="showValue(this)"/>5</div>
+          <div><button  value=”6” onclick="showValue(this)"/>6</div>
+          <div><button  value=”-” onclick="showValue(this)"/>-</div>
+          <div><button  value=”1” onclick="showValue(this)"/>1</div>
+          <div><button  value=”2” onclick="showValue(this)"/>2</div>
+          <div><button  value=”3” onclick="showValue(this)"/>3</div>
+          <div><button  value=”+” onclick="showValue(this)"/>+</div>
+          <div><button  value=”0” onclick="showValue(this)"/>0</div>
+          <div><button value=”.” onclick="showValue(this)"/>.</div>
+          <div><button  value='=' onclick="quickMath(this)"/>=</div>
+        </div>
+    </div>
+  <script src="app.js"></script>
 </body>
-
 </html>
